@@ -1,0 +1,227 @@
+/* Estilo para o cabeçalho */
+head {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+#introducao {
+  color: #333;
+  font-size: 32px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Estilo para o menu de navegação */
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+}
+.nav-button {
+  display: flex;
+  justify-content: space-between; /* espaço igual entre eles */
+  gap: 32px;
+}
+
+.nav-button a {
+  flex: 1; /* todos os botões ocupam o mesmo espaço */
+  text-align: justify;
+}
+.nav-button a:hover {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Corpo */
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #555;
+  font-size: 20px;
+  margin-top: 20px;
+}
+h3 {
+  color: #777;
+  font-size: 18px;
+  margin-top: 15px;
+}
+p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 5px;
+}
+
+/* Citação */
+
+.quote {
+  font-style: italic;
+  font-size: medium;
+  color: #550555;
+  padding: 5px;
+  border-left: 4px solid #696069;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  text-align: center;
+  color: #0056b3;
+}
+/* Estilo para a tabela */
+table {
+  width: 75%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+/* Estilo para as seções */
+section h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+section ul {
+  padding-left: 20px;
+}
+section ul li {
+  margin-bottom: 10px;
+}
+section {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+section#introducao {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+section#sobre {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+section#experiencia {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 5px;
+}
+section#educacao {
+  background-color: #f0fff0;
+  padding: 20px;
+  border-radius: 5px;
+}
+section#habilidades {
+  background-color: #fff0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+section#curiosidades {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+section#contato {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+section#agradecimento {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  size-adjust: 1.2em;
+}
+
+/* Ropapé */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+#meus-stats {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+#meus-stats h2 {
+  font-size: 1.5em;
+}
+
+/* Stats Container */
+.stats-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+
+.label {
+  width: 300px; /* mesma largura para todas as labels */
+  font-weight: bold;
+}
+
+.stars {
+  display: flex;
+  justify-content: flex-start;
+  color: gold;
+  font-family: "Arial", sans-serif;
+  font-size: 1.2em;
+}
+
+.hard-skills,
+.soft-skills {
+  font-size: larger;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
